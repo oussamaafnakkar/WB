@@ -291,7 +291,7 @@ footer span {
 }
 
 .hero-bg {
-  background-image: url(/home/johndoe/website/lasvertionweb/home/1.jpg);
+  background-image: url(1.jpg);
   background-size: cover;
   background-position: center;
 }
