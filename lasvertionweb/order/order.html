@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="order.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="l1.png" alt="Your Logo">
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"></label>
+      <ul class="navbar">
+        <li><a href="../home/home.html">Home</a></li>
+        <li><a href="../T-shirt/T-shirt.html">T-Shirts</a></li>
+        <li><a href="../Contact/contact.html">Contact</a></li>
+        <li><a href="../order/order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1></h1>
+    <p>"Fashion is the armor to survive the reality of everyday life." - Bill Cunningham </p>
+
+    <form action="https://script.google.com/macros/s/AKfycbyX9yvMS5rL5iqDImyPltS0iqBFRtDn2HoRptQX3kgcbrOzif38HwXYYyeA7HLpxTp6/exec" method="POST" id="customer-form" class="customer-form"  >
+      <h2>ORDER HERE</h2>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+     <div class="form-group">
+  <label for="size">Size:</label>
+  <select id="size" name="size" required>
+    <option value="">Select size</option>
+    <option value="XS">XS</option>
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+</div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <button type="submit">Submit</button>
+      <div id="success-message" class="success-message"></div>
+    </form>
+  </main>
+  
+  <footer>
+    <p>Made with <span>&#x2764;</span> by Saint Eric</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
