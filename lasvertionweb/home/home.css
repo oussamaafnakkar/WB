@@ -287,11 +287,10 @@ footer span {
 .hero {
   padding: 100px 0;
   text-align: center;
-  background-color:silver;
 }
 
 .hero-bg {
-  background-image: url(1.jpg);
+  background-image: url(/WB/lasvertionweb/home/1.jpg);
   background-size: cover;
   background-position: center;
 }
